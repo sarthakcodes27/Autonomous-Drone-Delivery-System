@@ -21,4 +21,6 @@ This project implements an autonomous drone delivery workflow using ArduPilot (S
 2. Start ArduPilot SITL (Mission Planner).
 3. Update the TELEGRAM_TOKEN in drone_control.py.
 
-4. Run the script: python drone_control.py
+4. Run the script:
+    ```bash
+    python drone_control.py
