@@ -1,0 +1,5 @@
+dronekit
+opencv-python
+pyTelegramBotAPI
+pymavlink
+numpy
