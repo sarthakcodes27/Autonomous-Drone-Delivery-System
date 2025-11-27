@@ -10,7 +10,7 @@ from dronekit import connect, VehicleMode, Command, LocationGlobalRelative
 from pymavlink import mavutil
 
 # --- CONFIGURATION ---
-TELEGRAM_TOKEN = '8336184060:AAGfYSMaQzVrKjRjRVrp4FBjN_toBV252GI' # <--- PASTE TOKEN HERE
+TELEGRAM_TOKEN = 'YOUR TELEGRAM BOT TOKEN' # <--- PASTE TOKEN HERE
 CONNECTION_STRING = 'tcp:127.0.0.1:5762' 
 
 # Initialize Bot
@@ -172,4 +172,5 @@ def handle_coordinates(message):
 if __name__ == "__main__":
     connect_drone()
     print("Bot is polling... Send a message on Telegram!")
+
     bot.polling()
